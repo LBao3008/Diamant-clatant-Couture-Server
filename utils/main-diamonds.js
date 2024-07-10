@@ -1,0 +1,100 @@
+const mainDiamonds = [
+  {
+    _id: "60f0c1b3e6f3f3b3b4f1f3b3",
+    carat: 1.3,
+    clarity: "VVS1",
+    color: "F",
+    cut: "Excellent",
+    origin: "natural",
+    currentBuyPrice: 1400,
+    currentSellPrice: 1750,
+    currentEffectDate: new Date("2024-05-22T18:00:00Z"),
+    currentUpdateDate: new Date("2024-05-22T00:00:00Z"),
+    priceHistory: [
+      {
+        buyPrice: 1500,
+        sellPrice: 1800,
+        effectDate: new Date("2024-05-20T18:00:00Z"),
+        date: new Date("2024-05-20T00:00:00Z"),
+      },
+      {
+        buyPrice: 1700,
+        sellPrice: 1900,
+        effectDate: new Date("2024-05-21T18:00:00Z"),
+        date: new Date("2024-05-21T00:00:00Z"),
+      },
+      {
+        buyPrice: 1400,
+        sellPrice: 1750,
+        effectDate: new Date("2024-05-22T18:00:00Z"),
+        date: new Date("2024-05-22T00:00:00Z"),
+      },
+    ],
+  },
+  {
+    _id: "60f0c1b3e6f3f3b3b4f1f3b4",
+    carat: 1.2,
+    clarity: "VVS1",
+    color: "F",
+    cut: "Excellent",
+    origin: "natural",
+    currentBuyPrice: 1400,
+    currentSellPrice: 1750,
+    currentEffectDate: new Date("2024-05-22T18:00:00Z"),
+    currentUpdateDate: new Date("2024-05-22T00:00:00Z"),
+    priceHistory: [
+      {
+        buyPrice: 1500,
+        sellPrice: 1800,
+        effectDate: new Date("2024-05-20T18:00:00Z"),
+        date: new Date("2024-05-20T00:00:00Z"),
+      },
+      {
+        buyPrice: 1700,
+        sellPrice: 1900,
+        effectDate: new Date("2024-05-21T18:00:00Z"),
+        date: new Date("2024-05-21T00:00:00Z"),
+      },
+      {
+        buyPrice: 1400,
+        sellPrice: 1750,
+        effectDate: new Date("2024-05-22T18:00:00Z"),
+        date: new Date("2024-05-22T00:00:00Z"),
+      },
+    ],
+  },
+  {
+    _id: "60f0c1b3e6f3f3b3b4f1f3b5",
+    carat: 1.4,
+    clarity: "VVS1",
+    color: "F",
+    cut: "Excellent",
+    origin: "lab grown",
+    currentBuyPrice: 1400,
+    currentSellPrice: 1750,
+    currentEffectDate: new Date("2024-05-22T18:00:00Z"),
+    currentUpdateDate: new Date("2024-05-22T00:00:00Z"),
+    priceHistory: [
+      {
+        buyPrice: 1500,
+        sellPrice: 1800,
+        effectDate: new Date("2024-05-20T18:00:00Z"),
+        date: new Date("2024-05-20T00:00:00Z"),
+      },
+      {
+        buyPrice: 1700,
+        sellPrice: 1900,
+        effectDate: new Date("2024-05-21T18:00:00Z"),
+        date: new Date("2024-05-21T00:00:00Z"),
+      },
+      {
+        buyPrice: 1400,
+        sellPrice: 1750,
+        effectDate: new Date("2024-05-22T18:00:00Z"),
+        date: new Date("2024-05-22T00:00:00Z"),
+      },
+    ],
+  },
+];
+
+module.exports = mainDiamonds;
